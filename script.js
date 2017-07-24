@@ -12,5 +12,5 @@ var diceRollButton = document.getElementById("dice-roll-button"),
     diceRollButton.addEventListener("click", function(){
         // displayArea.innerText += Math.random() + "\n";
         // displayArea.innerText += Math.random() + "\n";
-        resultsArea.innerText += getRandomInt(1,6) + " "+ ", ";
+        resultsArea.innerText += " " + getRandomInt(1,6) + ", ";
     });
